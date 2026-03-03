@@ -25,9 +25,9 @@ resource "cloudflare_pages_project" "frontend" {
   name              = "next-frontend-project"
   production_branch = "main"
 
-  build_config {
-    build_command   = "npm install && npm run build"
-    destination_dir = ".next"
+   build_config {
+    build_command   = "cd frontend && npm install && npm run build"
+    destination_dir = "frontend/out"
   }
 
   source {
