@@ -1,6 +1,8 @@
 # Cloudflare Deployment Project  
 Deploying Next.js Frontend on Cloudflare Pages and Backend on Cloudflare Workers using Terraform.
 
+Loom video: https://www.loom.com/share/e8899d54482d46d88cdccf26279b8711
+
 ---
 
 ##  Project Overview
